@@ -20,8 +20,8 @@ public class OnePlusTest {
 		caps.setCapability("appium:platformVersion", "14");
 		caps.setCapability("appium:deviceName", "632c58cb");
 		caps.setCapability("appium:automationName", "UiAutomator2");
-		caps.setCapability("appium:appPackage", "com.swaglabsmobileapp");
-		caps.setCapability("appium:appActivity", "com.swaglabsmobileapp.MainActivity");
+		caps.setCapability("appium:appPackage", "Your_App_Package");
+		caps.setCapability("appium:appActivity", "Your_App_Activity");
 		caps.setCapability("appium:appWaitActivity", "*");
 		caps.setCapability("appium:noReset", true);
 		caps.setCapability("appium:newCommandTimeout", 3600);
