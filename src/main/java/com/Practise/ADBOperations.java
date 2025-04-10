@@ -129,7 +129,7 @@ public class ADBOperations {
                 System.err.println(" Failed to execute ADB command.");
             }
         } catch (IOException | InterruptedException e) {
-            System.err.println("⚠️ Error executing ADB command: " + e.getMessage());
+            System.err.println("Error executing ADB command: " + e.getMessage());
         }
     }
 	public static Process appiumProcess;
